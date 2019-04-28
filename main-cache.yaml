@@ -1,0 +1,1339 @@
+version: 0.12.2
+filePath: main.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns:
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+  dviToPdfEngine: xdvipdfmx
+  engine: pdflatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: ''
+  intermediatePostScript: false
+  $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2019-04-25T02:10:19.760Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  main.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  main.tex-ParsedLaTeXMagic:
+    timeStamp: 2019-03-21T19:53:22.820Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
+  /Users/paulinetrinh/Library/Application Support/dicy/config.yaml-ParsedYAML:
+    timeStamp: 2019-03-21T19:53:22.815Z
+    jobNames: []
+    value:
+      synctex: true
+      engine: pdflatex
+      severity: warning
+      copyTargetsToRoot: true
+      outputDirectory: ''
+      outputFormat: pdf
+      cleanPatterns:
+        - '**/*.aux'
+        - '**/*.aux.bak'
+        - '**/*.bbl'
+        - '**/*.bcf'
+        - '**/*.blg'
+        - '**/*.dvi'
+        - '**/*.fdb_latexmk'
+        - '**/*.fls'
+        - '**/*.idx'
+        - '**/*.idx.bak'
+        - '**/*.ilg'
+        - '**/*.ind'
+        - '**/*.lof'
+        - '**/*.log'
+        - '**/*.lol'
+        - '**/*.lot'
+        - '**/*.nav'
+        - '**/*.out'
+        - '**/*.pdf'
+        - '**/*.ps'
+        - '**/*.snm'
+        - '**/*.synctex.gz'
+        - '**/*.toc'
+        - '/**/_minted-${JOB}'
+        - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+        - /missfont.log
+        - /texput.log
+        - /texput.aux
+      intermediatePostScript: false
+      $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
+    type: ParsedYAML
+  main.tex:
+    timeStamp: 2019-04-26T19:15:26.792Z
+    jobNames: []
+    hash: B8bqeIcSsyUcOkcTAmTOTyFDvCK2+PYfE5uEFFqTbNY=
+    type: LaTeX
+    subType: article
+  /Users/paulinetrinh/Library/Application Support/dicy/config.yaml:
+    timeStamp: 2019-04-12T03:43:19.837Z
+    jobNames: []
+    type: YAML
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  main.log:
+    timeStamp: 2019-04-25T02:10:22.488Z
+    jobNames: []
+    hash: b+nrcLljpfHZ7TSUvBhAZphOcZDyI+5DYSDFWGhSbYM=
+    type: LaTeXLog
+    subType: pdfTeX
+  main.fls-ParsedFileListing:
+    jobNames: []
+    type: ParsedFileListing
+  main.log-ParsedLaTeXLog:
+    timeStamp: 2019-04-25T02:10:22.526Z
+    jobNames: []
+    value:
+      messages:
+        - name: pdfTeX
+          severity: info
+          text: inputenc 2018/04/06 v1.3b Input encoding file
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+          log:
+            file: main.log
+            range:
+              start: 27
+              end: 27
+        - name: pdfTeX
+          severity: info
+          text: 'natbib 2010/09/13 8.31b (PWD, AO)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+          log:
+            file: main.log
+            range:
+              start: 31
+              end: 31
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \cite
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+            range:
+              start: 694
+              end: 694
+          log:
+            file: main.log
+            range:
+              start: 34
+              end: 34
+        - name: pdfTeX
+          severity: info
+          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+          log:
+            file: main.log
+            range:
+              start: 37
+              end: 37
+        - name: pdfTeX
+          severity: info
+          text: keyval 2014/10/28 v1.15 key=value parser (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+          log:
+            file: main.log
+            range:
+              start: 39
+              end: 39
+        - name: pdfTeX
+          severity: info
+          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+          log:
+            file: main.log
+            range:
+              start: 42
+              end: 42
+        - name: pdfTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+          log:
+            file: main.log
+            range:
+              start: 44
+              end: 44
+        - severity: info
+          name: pdfTeX
+          category: Package graphics
+          text: 'Driver file: pdftex.def'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+            range:
+              start: 99
+              end: 99
+          log:
+            file: main.log
+            range:
+              start: 48
+              end: 48
+        - name: pdfTeX
+          severity: info
+          text: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+          log:
+            file: main.log
+            range:
+              start: 55
+              end: 55
+        - name: pdfTeX
+          severity: info
+          text: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+          log:
+            file: main.log
+            range:
+              start: 57
+              end: 57
+        - severity: info
+          name: pdfTeX
+          category: Package caption3
+          text: 'TeX engine: e-TeX'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+            range:
+              start: 67
+              end: 67
+          log:
+            file: main.log
+            range:
+              start: 58
+              end: 58
+        - name: pdfTeX
+          severity: info
+          text: amsmath 2017/09/02 v2.17a AMS math features
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+          log:
+            file: main.log
+            range:
+              start: 69
+              end: 69
+        - name: pdfTeX
+          severity: info
+          text: amstext 2000/06/29 v2.01 AMS text
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+          log:
+            file: main.log
+            range:
+              start: 73
+              end: 73
+        - name: pdfTeX
+          severity: info
+          text: amsbsy 1999/11/29 v1.2d Bold Symbols
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+          log:
+            file: main.log
+            range:
+              start: 79
+              end: 79
+        - name: pdfTeX
+          severity: info
+          text: amsopn 2016/03/08 v2.02 operator names
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+          log:
+            file: main.log
+            range:
+              start: 82
+              end: 82
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \frac
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 213
+              end: 213
+          log:
+            file: main.log
+            range:
+              start: 85
+              end: 85
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \overline
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 375
+              end: 375
+          log:
+            file: main.log
+            range:
+              start: 88
+              end: 88
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \ldots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 472
+              end: 472
+          log:
+            file: main.log
+            range:
+              start: 91
+              end: 91
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \dots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 475
+              end: 475
+          log:
+            file: main.log
+            range:
+              start: 92
+              end: 92
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: Redefining \cdots
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 596
+              end: 596
+          log:
+            file: main.log
+            range:
+              start: 93
+              end: 93
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OML
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 712
+              end: 712
+          log:
+            file: main.log
+            range:
+              start: 97
+              end: 97
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Redeclaring font encoding OMS
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 713
+              end: 713
+          log:
+            file: main.log
+            range:
+              start: 98
+              end: 98
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \['
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2817
+              end: 2817
+          log:
+            file: main.log
+            range:
+              start: 119
+              end: 119
+        - severity: info
+          name: pdfTeX
+          category: LaTeX
+          text: 'Redefining \]'
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+            range:
+              start: 2818
+              end: 2818
+          log:
+            file: main.log
+            range:
+              start: 120
+              end: 120
+        - name: pdfTeX
+          severity: info
+          text: amssymb 2013/01/14 v3.01 AMS font symbols
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+          log:
+            file: main.log
+            range:
+              start: 122
+              end: 122
+        - name: pdfTeX
+          severity: info
+          text: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+          log:
+            file: main.log
+            range:
+              start: 124
+              end: 124
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Overwriting math alphabet `\mathfrak' in version `bold' U/euf/m/n
+            --> U/euf/b/n.
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+            range:
+              start: 106
+              end: 106
+          log:
+            file: main.log
+            range:
+              start: 127
+              end: 128
+        - name: pdfTeX
+          severity: info
+          text: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+          log:
+            file: main.log
+            range:
+              start: 130
+              end: 130
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it ... okay
+          source:
+            file: main.tex
+            range:
+              start: 11
+              end: 11
+          log:
+            file: main.log
+            range:
+              start: 136
+              end: 137
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 11
+              end: 11
+          log:
+            file: main.log
+            range:
+              start: 138
+              end: 139
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 11
+              end: 11
+          log:
+            file: main.log
+            range:
+              start: 140
+              end: 141
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 11
+              end: 11
+          log:
+            file: main.log
+            range:
+              start: 142
+              end: 143
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 11
+              end: 11
+          log:
+            file: main.log
+            range:
+              start: 144
+              end: 145
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 11
+              end: 11
+          log:
+            file: main.log
+            range:
+              start: 146
+              end: 147
+        - name: pdfTeX
+          severity: info
+          text: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+          log:
+            file: main.log
+            range:
+              start: 162
+              end: 162
+        - name: pdfTeX
+          severity: info
+          text: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+          log:
+            file: main.log
+            range:
+              start: 164
+              end: 164
+        - name: pdfTeX
+          severity: info
+          text: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+          log:
+            file: main.log
+            range:
+              start: 166
+              end: 166
+        - name: pdfTeX
+          severity: info
+          text: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+          log:
+            file: main.log
+            range:
+              start: 168
+              end: 168
+        - name: pdfTeX
+          severity: info
+          text: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 170
+              end: 170
+        - name: pdfTeX
+          severity: info
+          text: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+          log:
+            file: main.log
+            range:
+              start: 172
+              end: 172
+        - name: pdfTeX
+          severity: info
+          text: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+          log:
+            file: main.log
+            range:
+              start: 174
+              end: 174
+        - name: pdfTeX
+          severity: info
+          text: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 176
+              end: 176
+        - name: pdfTeX
+          severity: info
+          text: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+          log:
+            file: main.log
+            range:
+              start: 178
+              end: 178
+        - severity: info
+          name: pdfTeX
+          category: Package ifluatex
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+          log:
+            file: main.log
+            range:
+              start: 179
+              end: 179
+        - severity: info
+          name: pdfTeX
+          category: Package etexcmds
+          text: >-
+            Could not find \expanded. That can mean that you are not using
+            pdfTeX 1.50 or that some package has redefined \expanded. In the
+            latter case, load this package earlier.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 181
+              end: 184
+        - name: pdfTeX
+          severity: info
+          text: >-
+            pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX
+            (HO)
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 186
+              end: 187
+        - name: pdfTeX
+          severity: info
+          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+          source:
+            file: /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+          log:
+            file: main.log
+            range:
+              start: 189
+              end: 189
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: LuaTeX not detected.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 191
+              end: 191
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@primitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 192
+              end: 192
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdf@ifprimitive is available.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 193
+              end: 193
+        - severity: info
+          name: pdfTeX
+          category: Package pdftexcmds
+          text: \pdfdraftmode found.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+          log:
+            file: main.log
+            range:
+              start: 194
+              end: 194
+        - severity: info
+          name: pdfTeX
+          category: Package epstopdf-base
+          text: Redefining graphics rule for `.eps'
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 438
+              end: 438
+          log:
+            file: main.log
+            range:
+              start: 196
+              end: 197
+        - severity: info
+          name: pdfTeX
+          category: Package grfext
+          text: >-
+            Graphics extension search list:
+            [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+            \AppendGraphicsExtensions.
+          source:
+            file: >-
+              /usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+            range:
+              start: 456
+              end: 456
+          log:
+            file: main.log
+            range:
+              start: 198
+              end: 201
+        - severity: info
+          name: pdfTeX
+          category: Package caption
+          text: Begin \AtBeginDocument code.
+          source:
+            file: main.tex
+          log:
+            file: main.log
+            range:
+              start: 206
+              end: 206
+        - severity: info
+          name: pdfTeX
+          category: Package caption
+          text: End \AtBeginDocument code.
+          source:
+            file: main.tex
+          log:
+            file: main.log
+            range:
+              start: 207
+              end: 207
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msa
+          source:
+            file: main.tex
+            range:
+              start: 12
+              end: 12
+          log:
+            file: main.log
+            range:
+              start: 208
+              end: 208
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for U+msb
+          source:
+            file: main.tex
+            range:
+              start: 12
+              end: 12
+          log:
+            file: main.log
+            range:
+              start: 212
+              end: 212
+        - severity: error
+          name: pdfTeX
+          text: Extra alignment tab has been changed to \cr
+          log:
+            file: main.log
+            range:
+              start: 216
+              end: 217
+          source:
+            file: main.tex
+            range:
+              start: 12
+              end: 12
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for OMS+cmr
+          source:
+            file: main.tex
+            range:
+              start: 26
+              end: 26
+          log:
+            file: main.log
+            range:
+              start: 226
+              end: 226
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: >-
+            Font shape `OMS/cmr/m/n' in size <10> not available Font shape
+            `OMS/cmsy/m/n' tried instead.
+          source:
+            file: main.tex
+            range:
+              start: 26
+              end: 26
+          log:
+            file: main.log
+            range:
+              start: 230
+              end: 231
+        - severity: error
+          name: pdfTeX
+          text: Lonely \item--perhaps a missing list environment
+          log:
+            file: main.log
+            range:
+              start: 236
+              end: 237
+          source:
+            file: main.tex
+            range:
+              start: 35
+              end: 35
+          category: LaTeX
+        - severity: info
+          name: pdfTeX
+          category: LaTeX Font
+          text: Try loading font information for OT1+lmtt
+          source:
+            file: main.tex
+            range:
+              start: 62
+              end: 62
+          log:
+            file: main.log
+            range:
+              start: 250
+              end: 250
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'variance_plots2.png used Requested size: 345.0pt x 137.99078pt.'
+          source:
+            file: main.tex
+            range:
+              start: 102
+              end: 102
+          log:
+            file: main.log
+            range:
+              start: 258
+              end: 259
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'n_vary.png used Requested size: 345.0pt x 229.99689pt.'
+          source:
+            file: main.tex
+            range:
+              start: 129
+              end: 129
+          log:
+            file: main.log
+            range:
+              start: 269
+              end: 270
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'q_vary.png used Requested size: 345.0pt x 229.99689pt.'
+          source:
+            file: main.tex
+            range:
+              start: 141
+              end: 141
+          log:
+            file: main.log
+            range:
+              start: 275
+              end: 276
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 's_vary.png used Requested size: 345.0pt x 229.99689pt.'
+          source:
+            file: main.tex
+            range:
+              start: 152
+              end: 152
+          log:
+            file: main.log
+            range:
+              start: 280
+              end: 281
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: 'tree_vary.png used Requested size: 345.0pt x 229.99689pt.'
+          source:
+            file: main.tex
+            range:
+              start: 175
+              end: 175
+          log:
+            file: main.log
+            range:
+              start: 287
+              end: 288
+        - severity: info
+          name: pdfTeX
+          category: Package pdftex.def
+          text: >-
+            HDWanalysis_plots_B100_3methods.png used Requested size: 345.0pt x
+            229.99689pt.
+          source:
+            file: main.tex
+            range:
+              start: 197
+              end: 197
+          log:
+            file: main.log
+            range:
+              start: 293
+              end: 295
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 298
+              end: 298
+          source:
+            file: main.tex
+            range:
+              start: 217
+              end: 217
+        - severity: error
+          name: pdfTeX
+          text: Command \item invalid in math mode
+          log:
+            file: main.log
+            range:
+              start: 318
+              end: 319
+          source:
+            file: main.tex
+            range:
+              start: 289
+              end: 289
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Something's wrong--perhaps a missing \item
+          log:
+            file: main.log
+            range:
+              start: 331
+              end: 332
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Something's wrong--perhaps a missing \item
+          log:
+            file: main.log
+            range:
+              start: 344
+              end: 345
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Lonely \item--perhaps a missing list environment
+          log:
+            file: main.log
+            range:
+              start: 357
+              end: 358
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: 'Command \end{(} invalid in math mode'
+          log:
+            file: main.log
+            range:
+              start: 370
+              end: 371
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Something's wrong--perhaps a missing \item
+          log:
+            file: main.log
+            range:
+              start: 383
+              end: 384
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Something's wrong--perhaps a missing \item
+          log:
+            file: main.log
+            range:
+              start: 396
+              end: 397
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: '\begin{(} on input line 288 ended by \end{itemize}'
+          log:
+            file: main.log
+            range:
+              start: 409
+              end: 410
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+          category: LaTeX
+        - severity: error
+          name: pdfTeX
+          text: Missing $ inserted
+          log:
+            file: main.log
+            range:
+              start: 422
+              end: 422
+          source:
+            file: main.tex
+            range:
+              start: 290
+              end: 290
+        - severity: warning
+          name: pdfTeX
+          text: No file main.bbl.
+          log:
+            file: main.log
+            range:
+              start: 433
+              end: 433
+        - severity: error
+          name: pdfTeX
+          text: 'You can''t use `macro parameter character #'' in horizontal mode'
+          log:
+            file: main.log
+            range:
+              start: 440
+              end: 441
+          source:
+            file: main.tex
+            range:
+              start: 308
+              end: 308
+      inputs: []
+      outputs:
+        - main.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  main.pdf:
+    timeStamp: 2019-04-26T19:15:30.299Z
+    jobNames: []
+    hash: An1mhRpT4hzA6m/daCwjYSRbH/v3xbWe3RZ0jv/z+bY=
+    type: PortableDocumentFormat
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: main.yaml-ParsedYAML
+        type: default
+      - file: main.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: >-
+          /Users/paulinetrinh/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Migrate
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: main.yaml-ParsedYAML
+        type: default
+      - file: main.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: >-
+          /Users/paulinetrinh/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: /Users/paulinetrinh/Library/Application Support/dicy/config.yaml
+        type: default
+    outputs:
+      - file: >-
+          /Users/paulinetrinh/Library/Application
+          Support/dicy/config.yaml-ParsedYAML
+        type: default
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - main.tex
+    inputs:
+      - file: main.tex
+        type: default
+    outputs:
+      - file: main.tex-ParsedLaTeXMagic
+        type: default
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - main.tex
+    inputs:
+      - file: main.tex
+        type: default
+      - file: main.fls-ParsedFileListing
+        type: default
+      - file: main.log-ParsedLaTeXLog
+        type: default
+    outputs:
+      - file: main.pdf
+        type: default
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - main.log
+    inputs:
+      - file: main.log
+        type: default
+    outputs:
+      - file: main.log-ParsedLaTeXLog
+        type: default
+  - name: LogProducedTargets
+    command: build
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - main.tex
+    inputs:
+      - file: main.tex
+        type: default
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - main.log
+    inputs:
+      - file: main.log
+        type: default
+    outputs:
+      - file: main.log-ParsedLaTeXLog
+        type: default
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - main.log-ParsedLaTeXLog
+    inputs:
+      - file: main.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
