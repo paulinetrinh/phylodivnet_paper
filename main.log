@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 APR 2019 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  29 APR 2019 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -223,31 +223,31 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-[1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-/Users/paulinetrinh/phylodivnet_paper/main.tex:35: LaTeX Error: Lonely \item--p
+/Users/paulinetrinh/phylodivnet_paper/main.tex:37: LaTeX Error: Lonely \item--p
 erhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \item T
+l.37 \item T
             he way this paper distinguishes itself is through a robust look ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [2]
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 62.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -255,174 +255,176 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <variance_plots2.png, id=27, 3011.25pt x 1204.5pt>
 File: variance_plots2.png Graphic file (type png)
 <use variance_plots2.png>
-Package pdftex.def Info: variance_plots2.png  used on input line 102.
+Package pdftex.def Info: variance_plots2.png  used on input line 104.
 (pdftex.def)             Requested size: 345.0pt x 137.99078pt.
-[5 </Users/paulinetrinh/phylodivnet_paper/variance_plots2.png>]
-Overfull \hbox (11.56453pt too wide) in paragraph at lines 107--107
+[5]
+Overfull \hbox (11.56453pt too wide) in paragraph at lines 109--109
 []\OT1/cmr/bx/n/14.4 Weighted UniFrac Es-ti-ma-tion Sim-u-la-tion Study 
  []
 
-[6]
-<n_vary.png, id=41, 1806.75pt x 1204.5pt>
+[6 </Users/paulinetrinh/phylodivnet_paper/variance_plots2.png>]
+<n_vary.png, id=39, 1806.75pt x 1204.5pt>
 File: n_vary.png Graphic file (type png)
 <use n_vary.png>
-Package pdftex.def Info: n_vary.png  used on input line 129.
+Package pdftex.def Info: n_vary.png  used on input line 131.
 (pdftex.def)             Requested size: 345.0pt x 229.99689pt.
-[7 </Users/paulinetrinh/phylodivnet_paper/n_vary.png>]
-<q_vary.png, id=47, 1806.75pt x 1204.5pt>
+[7]
+<q_vary.png, id=46, 1806.75pt x 1204.5pt>
 File: q_vary.png Graphic file (type png)
 <use q_vary.png>
-Package pdftex.def Info: q_vary.png  used on input line 141.
+Package pdftex.def Info: q_vary.png  used on input line 143.
 (pdftex.def)             Requested size: 345.0pt x 229.99689pt.
-<s_vary.png, id=48, 1806.75pt x 1204.5pt>
+<s_vary.png, id=47, 1806.75pt x 1204.5pt>
 File: s_vary.png Graphic file (type png)
 <use s_vary.png>
-Package pdftex.def Info: s_vary.png  used on input line 152.
+Package pdftex.def Info: s_vary.png  used on input line 154.
 (pdftex.def)             Requested size: 345.0pt x 229.99689pt.
-[8 </Users/paulinetrinh/phylodivnet_paper/q_vary.png>] [9 </Users/paulinetrinh/
-phylodivnet_paper/s_vary.png>]
-<tree_vary.png, id=57, 1806.75pt x 1204.5pt>
+[8 </Users/paulinetrinh/phylodivnet_paper/n_vary.png>] [9 </Users/paulinetrinh/
+phylodivnet_paper/q_vary.png>] [10 </Users/paulinetrinh/phylodivnet_paper/s_var
+y.png>]
+<tree_vary.png, id=60, 1806.75pt x 1204.5pt>
 File: tree_vary.png Graphic file (type png)
 <use tree_vary.png>
-Package pdftex.def Info: tree_vary.png  used on input line 175.
+Package pdftex.def Info: tree_vary.png  used on input line 177.
 (pdftex.def)             Requested size: 345.0pt x 229.99689pt.
-[10] [11 </Users/paulinetrinh/phylodivnet_paper/tree_vary.png>]
-<HDWanalysis_plots_B100_3methods.png, id=66, 1806.75pt x 1204.5pt>
+[11 </Users/paulinetrinh/phylodivnet_paper/tree_vary.png>] [12]
+<HDWanalysis_plots_B100_3methods.png, id=69, 1806.75pt x 1204.5pt>
 File: HDWanalysis_plots_B100_3methods.png Graphic file (type png)
 <use HDWanalysis_plots_B100_3methods.png>
 Package pdftex.def Info: HDWanalysis_plots_B100_3methods.png  used on input lin
-e 197.
+e 199.
 (pdftex.def)             Requested size: 345.0pt x 229.99689pt.
-[12] [13 </Users/paulinetrinh/phylodivnet_paper/HDWanalysis_plots_B100_3methods
-.png>]
-/Users/paulinetrinh/phylodivnet_paper/main.tex:217: Missing $ inserted.
+[13 </Users/paulinetrinh/phylodivnet_paper/HDWanalysis_plots_B100_3methods.png>
+]
+/Users/paulinetrinh/phylodivnet_paper/main.tex:219: Missing $ inserted.
 <inserted text> 
                 $
-l.217 ... set the last taxon as D and calculate Z_
+l.219 ... set the last taxon as D and calculate Z_
                                                   i = \phi^{-1}(Y_i)$ for th...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [14] [15]
-Overfull \hbox (3.63965pt too wide) in paragraph at lines 259--259
+Overfull \hbox (3.63965pt too wide) in paragraph at lines 261--261
 []\OT1/cmr/bx/n/14.4 Ignore Me! Ex-tra me-an-der-ing thoughts maybe
  []
 
 [16]
-Overfull \hbox (12.8895pt too wide) in paragraph at lines 281--282
+Overfull \hbox (12.8895pt too wide) in paragraph at lines 283--284
 []\OT1/cmr/m/n/10 Discuss the idea that groups of peo-ple based on some de-sign
  ma-trix/covariates
  []
 
+[17]
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:289: LaTeX Error: Command \item 
+/Users/paulinetrinh/phylodivnet_paper/main.tex:291: LaTeX Error: Command \item 
 invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.289   \item
+l.291   \item
              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: LaTeX Error: Something's wr
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: LaTeX Error: Something's wr
 ong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \end
+l.292 \end
           {itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: LaTeX Error: Something's wr
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: LaTeX Error: Something's wr
 ong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \end
+l.292 \end
           {itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: LaTeX Error: Lonely \item--
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: LaTeX Error: Lonely \item--
 perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \end
+l.292 \end
           {itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: LaTeX Error: Command \end{(
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: LaTeX Error: Command \end{(
 } invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \end{itemize}
+l.292 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: LaTeX Error: Something's wr
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: LaTeX Error: Something's wr
 ong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \end{itemize}
+l.292 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: LaTeX Error: Something's wr
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: LaTeX Error: Something's wr
 ong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \end{itemize}
+l.292 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: LaTeX Error: \begin{(} on i
-nput line 288 ended by \end{itemize}.
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: LaTeX Error: \begin{(} on i
+nput line 290 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \end{itemize}
+l.292 \end{itemize}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:290: Missing $ inserted.
+/Users/paulinetrinh/phylodivnet_paper/main.tex:292: Missing $ inserted.
 <inserted text> 
                 $
-l.290 \end{itemize}
+l.292 \end{itemize}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -432,14 +434,14 @@ my insertion and my current dilemma will both disappear.
 
 No file main.bbl.
 
-Overfull \hbox (12.47293pt too wide) in paragraph at lines 300--302
+Overfull \hbox (12.47293pt too wide) in paragraph at lines 302--304
 []\OT1/cmr/m/n/10 Vu 2007 https://statistics.berkeley.edu/sites/default/files/t
 ech-reports/727.pdf 
  []
 
-/Users/paulinetrinh/phylodivnet_paper/main.tex:308: You can't use `macro parame
+/Users/paulinetrinh/phylodivnet_paper/main.tex:310: You can't use `macro parame
 ter character #' in horizontal mode.
-l.308 ...cbi.nlm.nih.gov/pmc/articles/PMC5074386/#
+l.310 ...cbi.nlm.nih.gov/pmc/articles/PMC5074386/#
                                                   S31title
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -447,16 +449,16 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (27.87584pt too wide) in paragraph at lines 308--309
+Overfull \hbox (27.87584pt too wide) in paragraph at lines 310--311
 []\OT1/cmr/m/n/10 Goodrich 2014 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC50
 74386/S31title 
  []
 
-[17] (/Users/paulinetrinh/phylodivnet_paper/main.aux) ) 
+[18] (/Users/paulinetrinh/phylodivnet_paper/main.aux) ) 
 Here is how much of TeX's memory you used:
  3902 strings out of 492649
  57438 string characters out of 6129622
- 125793 words of memory out of 5000000
+ 126793 words of memory out of 5000000
  7724 multiletter control sequences out of 15000+600000
  12465 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -481,10 +483,10 @@ ic/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 msfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm
 /lmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on main.pdf (17 pages, 789514 bytes).
+Output written on main.pdf (18 pages, 791108 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

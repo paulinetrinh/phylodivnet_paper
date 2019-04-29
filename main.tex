@@ -10,6 +10,8 @@
 
 \begin{document}
 \maketitle
+\section{Abstract}
+The Unique Fraction (UniFrac) metric is a distance metric for comparing communities. It measures the phylogenetic distance between two sets of taxa. There are two commonly used UniFrac metrics: Weighted and Unweighted UniFrac. Estimation of UniFrac has been proposed and evaluated from a bioinformatics perspective, but has yet to be explored in the statistical literature. Existing methods do not account for uncertainty of UniFrac estimation. Given the widespread use of UniFrac in microbial ecology, an evaluation of its robustness to model misspecification is warranted. We propose PhyloDivNet, a method for estimating weighted UniFrac while accounting for the network structure between taxa. We evaluate PhyloDivNet’s performance under simulation and show that it is fast, precise, and performs well with varying sample sizes, taxa, network strengths, and phylogenetic tree structures. Using 16S amplicon data from the Healthy Dairy Worker study, we illustrate the advantages of the method in analyzing compositional differences between groups with 3,441 taxa and 74 samples.  
 \section{Introduction}
 The human microbiome is comprised of a vast number of microorganisms that interact in complex ways to influence human health. A common question of interest for microbiome researchers is whether microbial diversity is related to characteristics such as disease states or trait expression. The terms alpha, beta, and gamma diversity were introduced in 1972 by R.H. Whittaker as frameworks to characterize the spatial component of biodiversity. The two most commonly used terms to describe microbial diversity are alpha-diversity which refers to the diversity of a site and beta diversity which characterizes the differences in species composition between sites. Summarizing microbial communities
 
@@ -256,10 +258,7 @@ What do I expect to happen under the following 3 tree-relative abundance distrib
 - Lower abundance organisms are on shorter branches/ Larger abundance on longer branches
 - Relatively equal abundances on equal branch lengths
 
-
-
-
-\section{extra meandering thoughts}
+\section{Ignore Me! Extra meandering thoughts maybe useful later. somewhat maniacal.}
 
 \textbf{Alternative proposed way to generate the data:}
 

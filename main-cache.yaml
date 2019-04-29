@@ -71,7 +71,7 @@ options:
   $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
 files:
   dicy-instance.yaml-ParsedYAML:
-    timeStamp: 2019-04-25T02:10:19.760Z
+    timeStamp: 2019-04-29T23:13:32.117Z
     jobNames: []
     value:
       severity: info
@@ -130,29 +130,29 @@ files:
       $PATH: '/usr/texbin:/Library/TeX/texbin:$PATH'
     type: ParsedYAML
   main.tex:
-    timeStamp: 2019-04-26T19:15:26.792Z
+    timeStamp: 2019-04-29T23:13:38.431Z
     jobNames: []
-    hash: B8bqeIcSsyUcOkcTAmTOTyFDvCK2+PYfE5uEFFqTbNY=
+    hash: O1qLCG4hrvrdxAUyXXTjOr9H6Ej1+RtWYu2w6HEGZa0=
     type: LaTeX
     subType: article
   /Users/paulinetrinh/Library/Application Support/dicy/config.yaml:
-    timeStamp: 2019-04-12T03:43:19.837Z
+    timeStamp: 2019-04-29T23:13:32.137Z
     jobNames: []
     type: YAML
   x.y-Nil:
     jobNames: []
     type: Nil
   main.log:
-    timeStamp: 2019-04-25T02:10:22.488Z
+    timeStamp: 2019-04-29T23:13:35.362Z
     jobNames: []
-    hash: b+nrcLljpfHZ7TSUvBhAZphOcZDyI+5DYSDFWGhSbYM=
+    hash: ghqoKrr8NnkE7xrPByyGZLsXSlkrUAMC6BrYatajHTE=
     type: LaTeXLog
     subType: pdfTeX
   main.fls-ParsedFileListing:
     jobNames: []
     type: ParsedFileListing
   main.log-ParsedLaTeXLog:
-    timeStamp: 2019-04-25T02:10:22.526Z
+    timeStamp: 2019-04-29T23:13:35.460Z
     jobNames: []
     value:
       messages:
@@ -874,13 +874,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 26
-              end: 26
+              start: 28
+              end: 28
           log:
             file: main.log
             range:
-              start: 226
-              end: 226
+              start: 229
+              end: 229
         - severity: info
           name: pdfTeX
           category: LaTeX Font
@@ -890,13 +890,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 26
-              end: 26
+              start: 28
+              end: 28
           log:
             file: main.log
             range:
-              start: 230
-              end: 231
+              start: 233
+              end: 234
         - severity: error
           name: pdfTeX
           text: Lonely \item--perhaps a missing list environment
@@ -908,8 +908,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 35
-              end: 35
+              start: 37
+              end: 37
           category: LaTeX
         - severity: info
           name: pdfTeX
@@ -918,8 +918,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 62
-              end: 62
+              start: 64
+              end: 64
           log:
             file: main.log
             range:
@@ -932,8 +932,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 102
-              end: 102
+              start: 104
+              end: 104
           log:
             file: main.log
             range:
@@ -946,8 +946,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 129
-              end: 129
+              start: 131
+              end: 131
           log:
             file: main.log
             range:
@@ -960,8 +960,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 141
-              end: 141
+              start: 143
+              end: 143
           log:
             file: main.log
             range:
@@ -974,8 +974,8 @@ files:
           source:
             file: main.tex
             range:
-              start: 152
-              end: 152
+              start: 154
+              end: 154
           log:
             file: main.log
             range:
@@ -988,13 +988,13 @@ files:
           source:
             file: main.tex
             range:
-              start: 175
-              end: 175
+              start: 177
+              end: 177
           log:
             file: main.log
             range:
-              start: 287
-              end: 288
+              start: 288
+              end: 289
         - severity: info
           name: pdfTeX
           category: Package pdftex.def
@@ -1004,39 +1004,39 @@ files:
           source:
             file: main.tex
             range:
-              start: 197
-              end: 197
+              start: 199
+              end: 199
           log:
             file: main.log
             range:
-              start: 293
-              end: 295
+              start: 294
+              end: 296
         - severity: error
           name: pdfTeX
           text: Missing $ inserted
           log:
             file: main.log
             range:
-              start: 298
-              end: 298
+              start: 299
+              end: 299
           source:
             file: main.tex
             range:
-              start: 217
-              end: 217
+              start: 219
+              end: 219
         - severity: error
           name: pdfTeX
           text: Command \item invalid in math mode
           log:
             file: main.log
             range:
-              start: 318
-              end: 319
+              start: 320
+              end: 321
           source:
             file: main.tex
             range:
-              start: 289
-              end: 289
+              start: 291
+              end: 291
           category: LaTeX
         - severity: error
           name: pdfTeX
@@ -1044,13 +1044,13 @@ files:
           log:
             file: main.log
             range:
-              start: 331
-              end: 332
+              start: 333
+              end: 334
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
           category: LaTeX
         - severity: error
           name: pdfTeX
@@ -1058,13 +1058,13 @@ files:
           log:
             file: main.log
             range:
-              start: 344
-              end: 345
+              start: 346
+              end: 347
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
           category: LaTeX
         - severity: error
           name: pdfTeX
@@ -1072,13 +1072,13 @@ files:
           log:
             file: main.log
             range:
-              start: 357
-              end: 358
+              start: 359
+              end: 360
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
           category: LaTeX
         - severity: error
           name: pdfTeX
@@ -1086,13 +1086,13 @@ files:
           log:
             file: main.log
             range:
-              start: 370
-              end: 371
+              start: 372
+              end: 373
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
           category: LaTeX
         - severity: error
           name: pdfTeX
@@ -1100,13 +1100,13 @@ files:
           log:
             file: main.log
             range:
-              start: 383
-              end: 384
+              start: 385
+              end: 386
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
           category: LaTeX
         - severity: error
           name: pdfTeX
@@ -1114,27 +1114,27 @@ files:
           log:
             file: main.log
             range:
-              start: 396
-              end: 397
+              start: 398
+              end: 399
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
           category: LaTeX
         - severity: error
           name: pdfTeX
-          text: '\begin{(} on input line 288 ended by \end{itemize}'
+          text: '\begin{(} on input line 290 ended by \end{itemize}'
           log:
             file: main.log
             range:
-              start: 409
-              end: 410
+              start: 411
+              end: 412
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
           category: LaTeX
         - severity: error
           name: pdfTeX
@@ -1142,43 +1142,43 @@ files:
           log:
             file: main.log
             range:
-              start: 422
-              end: 422
+              start: 424
+              end: 424
           source:
             file: main.tex
             range:
-              start: 290
-              end: 290
+              start: 292
+              end: 292
         - severity: warning
           name: pdfTeX
           text: No file main.bbl.
           log:
             file: main.log
             range:
-              start: 433
-              end: 433
+              start: 435
+              end: 435
         - severity: error
           name: pdfTeX
           text: 'You can''t use `macro parameter character #'' in horizontal mode'
           log:
             file: main.log
             range:
-              start: 440
-              end: 441
+              start: 442
+              end: 443
           source:
             file: main.tex
             range:
-              start: 308
-              end: 308
+              start: 310
+              end: 310
       inputs: []
       outputs:
         - main.pdf
       calls: []
     type: ParsedLaTeXLog
   main.pdf:
-    timeStamp: 2019-04-26T19:15:30.299Z
+    timeStamp: 2019-04-29T23:13:42.214Z
     jobNames: []
-    hash: An1mhRpT4hzA6m/daCwjYSRbH/v3xbWe3RZ0jv/z+bY=
+    hash: nkTMxWMdzHuboqSmwSnGzfloTUSQQl60/qZuMyhDa6k=
     type: PortableDocumentFormat
 rules:
   - name: ApplyOptions
